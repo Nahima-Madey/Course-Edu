@@ -23,7 +23,7 @@ const QuizLanding: React.FC<QuizLandingProps> = ({ onStart }) => {
           
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
             Find out in just 3 minutes! Our quiz uses the proven RIASEC model to map your interests 
-            to careers — including emerging and niche fields you might never have considered.
+            to careers, including emerging and niche fields you might never have considered.
           </p>
         </div>
 
