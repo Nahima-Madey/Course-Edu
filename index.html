@@ -9,8 +9,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CourseEdu</title>
     <meta name="description" content="Discover lesser-known and emerging careers beyond traditional paths. Find your perfect career match with our comprehensive career discovery platform." />
+    <style>
+      .bolt-badge {
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        width: 48px;
+        height: auto;
+        z-index: 1000;
+      }
+      @media (max-width: 600px) {
+        .bolt-badge {
+          width: 36px;
+        }
+      }
+    </style>
   </head>
   <body>
+    <!-- Bolt.new badge -->
+    <a href="https://bolt.new/" target="_blank" rel="noopener noreferrer">
+      <img src="/assets/bolt-badge-black-circle.svg"
+           alt="Built with Bolt.new"
+           class="bolt-badge" />
+    </a>
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
