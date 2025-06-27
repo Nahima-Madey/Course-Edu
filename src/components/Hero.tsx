@@ -26,8 +26,7 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-            Find your perfect professional match with our comprehensive career discovery platform designed for the curious mind.
-          </p>
+            Find your perfect professional match with our comprehensive career discovery platform designed for you
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
