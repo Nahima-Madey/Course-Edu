@@ -12,6 +12,15 @@ const Hero: React.FC = () => {
         }} />
       </div>
       
+      {/* Bolt Badge - Positioned in top right */}
+      <div className="absolute top-8 right-8 z-10">
+        <img 
+          src="/bolt-badge-black-circle.svg.png" 
+          alt="Powered by Bolt" 
+          className="w-16 h-16 md:w-20 md:h-20 opacity-80 hover:opacity-100 transition-opacity duration-300"
+        />
+      </div>
+      
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <div className="inline-flex items-center space-x-2 bg-blue-50 text-blue-700 px-4 py-2 rounded-full text-sm font-medium mb-8 border border-blue-200">
@@ -26,7 +35,8 @@ const Hero: React.FC = () => {
           </h1>
           
           <p className="text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
-            Find your perfect professional match with our comprehensive career discovery platform designed for you.
+            Find your perfect 
+            professional match with our comprehensive career discovery platform designed for you.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
